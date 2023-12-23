@@ -1,0 +1,43 @@
+body {
+    background-color: beige;
+}
+#header {
+    background-color: #BEADFA;
+    text-align: center;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.head {
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    color: white;
+}
+
+.heading {
+    color: white;
+}
+
+.container {
+    background-color: #BEADFA;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.text {
+    color: white;
+}
+.btn {
+    color: green;
+    margin-left: 25%;
+    width: 25%;
+}

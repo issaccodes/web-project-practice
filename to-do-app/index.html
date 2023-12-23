@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-App</title>
+</head>
+<body>
+    <input type="text" placeholder="type something!">
+    <button>click me!</button>
+    <div id="listContainer"></div>
+    <script>
+        var listItems = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+
+// Create an unordered list element
+var ul = document.createElement('ul');
+
+// Loop through the array and create list items
+for (var i = 0; i < listItems.length; i++) {
+    // Create a list item element
+    var li = document.createElement('li');
+
+    // Set the text content of the list item
+    li.textContent = listItems[i];
+
+    // Append the list item to the unordered list
+    ul.appendChild(li);
+}
+
+// Get the container element by its ID
+var container = document.getElementById('listContainer');
+
+// Append the unordered list to the container
+container.appendChild(ul);
+
+</script>
+</body>
+
+</html>

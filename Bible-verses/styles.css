@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(42, 40, 40);
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    background-image: url(/sunflower.jpg);
+    height: 200px;
+    width: 730px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 245px;
+    border-radius: 2rem;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.inner-container {
+    height: 160px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 2rem;
+    backdrop-filter: blur(4px);
+    background-color: rgba(240, 248, 255, 0.297);
+    font-size: 18px;
+    font-weight: 800px;
+    color: black;
+    box-shadow: 6px 6px 6px rgba(36, 35, 35, 0.66);
+    
+}
+.btn {
+    display: inline;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2rem;
+    border: none;
+    font-size: 20px;
+    margin-left: 6px;
+    margin-right: 6px
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Nunito+Sans:opsz,wght@6..12,300;6..12,500&family=Poppins&family=Raleway:wght@600&display=swap');
+body {
+    background-image: url(/7fc8ba51-a79b-45de-941d-efdecdcb1d9d\ \(copy\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.player-png {
+    height: 160px;
+    text-align: center;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    height: 150px;
+    width: 800px;
+    
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.409);
+    backdrop-filter: blur(4px);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 2rem;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 6px;
+    text-align: center;
+}
+
+hr {
+    border: none;
+}
+
+.text-color {
+    color: rgb(255, 171, 3);
+}
+
+.text {
+    font-size: 22px;
+}
+
+li {
+    font-size: 22px;
+}
+
+.contact-no {
+    display: inline-flex;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+.contact-info {
+    width: 200px;
+    height: 200px;
+}
+
+.barcode-img {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
