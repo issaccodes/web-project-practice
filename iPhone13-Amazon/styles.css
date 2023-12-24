@@ -1,0 +1,67 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 25%;
+    padding: 40px;
+    width: 100%;
+    position: fixed;
+}
+
+.inner-container {
+    float: right;
+    padding: 40px;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: gray;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.ratings {
+    display: inline-flex;
+}
+
+p {
+    margin-top: 1px;
+    margin-left: 12px;
+    color: rgb(59, 132, 250);
+    font-weight: 500;
+}
+.sale {
+    margin-top: 0;
+}
+
+.emi {
+    color: gray;
+    margin-top: -18px;
+    margin-left: 0;
+}
+
+.delivery {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgb(255, 208, 0);
+    border: none;
+    padding: 20px 40px;
+    border-radius: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgb(18, 110, 163);
+    font-size: 16px;
+}
