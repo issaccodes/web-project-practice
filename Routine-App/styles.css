@@ -22,6 +22,10 @@ body {
     color: white;
 }
 
+.main-container {
+    display: flex;
+}
+
 .container {
     background-color: #BEADFA;
     width: 50%;
